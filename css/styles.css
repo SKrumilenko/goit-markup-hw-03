@@ -131,15 +131,14 @@ img {
 }
 
 /* HERO section */
-.hero-container {
-  padding: 200px 252px;
-}
 .hero {
+  padding: 200px 0px;
   background-color: var(--dark-bg-cl);
   text-align: center;
 }
 .hero-title {
-  margin-bottom: 30px;
+  margin: 0 auto 30px auto;
+  width: 696px;
   font-weight: 900;
   font-size: 44px;
   line-height: calc(60 / 44);
@@ -165,9 +164,6 @@ img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 /* Features section */
-.features-section {
-  padding-bottom: 0;
-}
 .features-list {
   display: flex;
   gap: var(--gap);
@@ -199,6 +195,9 @@ img {
   color: var(--grey-txt-cl);
 }
 /* Work section */
+.work-section {
+  padding-top: 0;
+}
 .work-title,
 .team-title {
   margin-bottom: 50px;
@@ -245,12 +244,10 @@ img {
 
 /* Footer */
 .footer {
-  background-color: var(--dark-bg-cl);
-  color: var(--light-txt-cl);
-}
-.footer-container {
   padding-top: 60px;
   padding-bottom: 60px;
+  background-color: var(--dark-bg-cl);
+  color: var(--light-txt-cl);
 }
 /* .footer-logo {
     margin-bottom: 20px;
@@ -282,7 +279,7 @@ img {
   display: flex;
   justify-content: center;
   gap: 8px;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 .filter-btn {
   padding: 8px 22px;
